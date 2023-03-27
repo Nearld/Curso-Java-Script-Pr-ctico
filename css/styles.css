@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    background: url("../img/prueba.png");
+    background-size: cover;
+    padding-top: 20px;
+    justify-content: center;
+}
+
+section .cont-botones{
+    width: 40%;
+    height: 500px;
+    padding: 20px;    
+    border-radius: 20px;
+    text-align: center;
+    backdrop-filter: blur(5px);
+    border: 2px solid white;
+}
+section .cont-botones h2{
+    color: azure;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+section .cont-botones button{
+    padding: 10px 40px;
+    border-radius: 4px;
+    color: azure;
+    background: #000;
+    margin:12px;
+    border: 2px solid white;
+}
+
+section .cont-figura{
+    width: 40%;
+    height: 500px;
+    padding: 20px;
+    text-align: center;
+    backdrop-filter: blur(5px);
+    border: 2px solid white;
+}
+
+section .cont-figura h2{
+    color: azure;
+    font-size: 50px;
+}
+
+#figura{
+width: 200px;
+height: 200px;
+background: #fff;
+margin: 20px auto;
+transition: .5s;
+}
+
+#figura.circulo{
+    border-radius: 50%;
+    transition: .5s;
+    transform: rotate(-360deg);
+}
+#figura.rectangulo{
+    width: 300px;
+    transition: .4s;
+}
+
+#figura.top{
+    transform: translateY(-100px);
+    transition: .4s;
+}
+
+#figura.Left{
+    transform: translateX(-100px);
+    transition: .4s;
+}
+
+#figura.Right{
+    transform: translateX(100px);
+    transition: .4s;
+}
+
+#figura.Bottom{
+    transform: translateY(100px);
+    transition: .4s;
+}
+
+#figura.Diagonal{
+    transform: translateX(-100px) translateY(-100px);
+    transition: .4s;
+}
+
+#figura.Imagen{
+    background-image: url(https://media0.giphy.com/media/U1naNtyZ41Gbm/200.webp?cid=ecf05e47sg7yvc3rii1ohffxzo641eikudu5zgsv2baernan&rid=200.webp&ct=g);
+}
+
+#figura.rombo{
+ 
+    transform: rotate(45deg);
+    transform: rotate(45deg);
+    transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+
+
+
